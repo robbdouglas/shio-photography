@@ -1,1 +1,1 @@
-# Shio Photography Website
+# Shio Photography
