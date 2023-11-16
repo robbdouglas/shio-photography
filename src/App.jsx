@@ -1,13 +1,16 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
+import Header from "./components/Header";
+import ShioContainer from "./components/ShioContainer";
 
 function App() {
-  const [count, setCount] = useState(0);
-  const a = 10;
-
-  return <>{a > 10 ? <div>hello</div> : <div>world</div>}</>;
+  return (
+    <>
+      <Header />
+      <ShioContainer text="robert" />
+      <ShioContainer text="giaco" />
+      <ShioContainer text="rami" />
+    </>
+  );
 }
 
 export default App;
